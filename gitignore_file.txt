@@ -1,0 +1,108 @@
+# Keep folder structure with .gitkeep files but ignore content
+# Data folders - ignore content but keep structure
+data/*
+!data/.gitkeep
+!data/*/
+!data/*/.gitkeep
+
+# Other project folders - keep .gitkeep files
+src/*
+!src/.gitkeep
+!src/*/
+!src/*/.gitkeep
+
+scripts/*
+!scripts/.gitkeep
+
+tests/*
+!tests/.gitkeep
+
+docker/*
+!docker/.gitkeep
+
+mlflow/*
+!mlflow/.gitkeep
+
+# Ignore specific file types
+*.csv
+*.xlsx
+*.xls
+*.json
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Model files
+*.pkl
+*.joblib
+*.model
+*.h5
+*.pb
+
+# Logs
+*.log
+logs/

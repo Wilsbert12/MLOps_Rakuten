@@ -50,6 +50,11 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+**Troubleshooting:**
+- **macOS**: If you get "python: command not found", try using `python3`
+- **Windows**: If you get "python: command not found", try using `py` or `python3`
+- **All platforms**: You can check your Python version with `python --version` or `python3 --version`
+
 ### 3. Download Dataset
 1. Download the Rakuten product classification dataset
 2. Extract and organize files in the existing data structure:
